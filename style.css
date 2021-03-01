@@ -2,4 +2,84 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Akaya Telivigala', cursive;
+}
+body{
+    background-color: rgb(127, 255, 255);
+}
+header h1{
+    color: white;
+    font-size: 7rem;
+    text-align: center;
+    padding: 50px;
+}
+.wrapper{
+    width: 2000px;
+    height: 2000px;
+    margin: auto;
+}
+.clearfix{
+    clear: both;
+    content: "";
+    display: table;
+}
+.row{
+    width: 100%;
+    height: calc(100% / 3);
+}
+.box{
+    float: left;
+    background-image: url(img/pattern.png);
+    color: white;
+    width: 470px;
+    height: 600px;
+    background-size: contain;
+    border-radius: 20px;
+    position: relative;
+}
+.central{
+    margin: 0 39px 0 39px;
+}
+.fix{
+    margin-right: 0;
+}
+div img{
+    min-width: 85%;
+    min-height: 85%;
+}
+.box:hover{
+    background-image: url(img/noun_air_balloon_3134741.png);
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: violet;
+}
+.box h2{
+    display: inherit;
+    position: absolute;
+    bottom: 0px;
+    transform: translate(-50%,-50%); 
+    left: 50%;
+    font-size: 3rem;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+
+/* utility classes */
+.border{
+    border: 1px solid black;
 }
