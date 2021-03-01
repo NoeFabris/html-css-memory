@@ -15,7 +15,6 @@ header h1{
 }
 .wrapper{
     width: 2000px;
-    height: 2000px;
     margin: auto;
 }
 .clearfix{
@@ -25,9 +24,12 @@ header h1{
 }
 .row{
     width: 100%;
-    height: calc(100% / 3);
+    height: calc(2000 / 3);
 }
-.box{
+.rigamedia{
+    margin: 50px 0 50px 0;
+}
+.box, .boxvisibile{
     float: left;
     background-image: url(img/pattern.png);
     color: white;
@@ -48,7 +50,6 @@ div img{
     min-height: 85%;
 }
 .box:hover{
-    background-image: url(img/noun_air_balloon_3134741.png);
     background-color: white;
     background-position: center;
     background-repeat: no-repeat;
@@ -62,8 +63,39 @@ div img{
     left: 50%;
     font-size: 3rem;
 }
-
-
+.boxvisibile{
+    background-image: url(img/noun_air_balloon_3134741.png);
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: violet;
+}
+.boxvisibile h2{
+    display: inherit;
+    position: absolute;
+    bottom: 0px;
+    transform: translate(-50%,-50%); 
+    left: 50%;
+    font-size: 3rem;
+}
+.bici:hover{
+    background-image: url(img/noun_Bicycle_3134821.png);
+}
+.nave:hover{
+    background-image: url(img/noun_Cruise_Ship_3134824.png);
+}
+.sub:hover{
+    background-image: url(img/noun_Submarine_3134738.png);
+}
+.trattore:hover{
+    background-image: url(img/noun_Tractor_3134797.png);
+}
+.tram:hover{
+    background-image: url(img/noun_Tram_3134750.png);
+}
+.mongola:hover{
+    background-image: url(img/noun_air_balloon_3134741.png);
+}
 
 
 
